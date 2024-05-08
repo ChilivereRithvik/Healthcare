@@ -1,0 +1,60 @@
+.Container{
+    background-color:#0f172a;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 10px;
+    column-gap: 10px;
+    max-width: 500px;
+    border-radius: 3px;
+    color: aliceblue;
+    cursor: pointer;
+  
+}
+.Container p{
+    font-weight: 400;
+    margin: 10px 0;
+
+}
+.Container .date{
+  
+    width: 100%;
+    text-decoration: none;
+    margin: 10px 0;
+}
+ .Container .time{
+    width: 100%;
+    margin-bottom: 10px;
+ }
+
+ .avalbtn{
+    background-color:aliceblue;
+        color:#0f172a;
+ }
+.avalbtn:hover{
+color: aliceblue;
+border: 1px solid aliceblue;
+}
+
+ .book:hover{
+    background-color:#0AF282;
+    color:#0f172a;
+    font-weight: bold;
+ }
+
+ .book{
+    background-color:aliceblue;
+    margin-top: 10px;
+    color: #0f172a;
+ }
+ @media screen and (max-width:760px) {
+    .Container{
+        display: flex;
+        flex-direction: column;
+    }
+ }
+
+ .doc{
+    font-size:x-large;
+ }

@@ -1,0 +1,147 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f172a;
+    position: sticky;
+    top: 0;
+}
+
+nav .title {
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 0.5rem;
+    transition: all 0.5s ease-in-out;
+}
+
+nav ul li:hover{
+    color: #0f172a;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 0.5rem;
+    border-radius: 3px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+nav ul li a.active {
+
+
+    color: #f0f0f0;
+    width: 100%;
+  font-weight: 500;
+}
+nav ul li a:not(.active){
+    color:#f0f0f05d;
+}
+/* Mobile Menu */
+nav .menu {
+    display: none;
+    /* Hide menu by default */
+}
+
+.menu span {
+    height: 0.2rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 0.2rem;
+}
+ul li a:hover {
+    color: #0f172a;
+}
+.register, .login{
+    display: none;
+}
+
+.nn,.nn1{
+    color: #f0f0f0;
+    background-color: #0f172a;
+}
+
+@media (max-width: 768px) {
+    .register,.login {
+            display: inline;
+        }
+    nav {
+        flex-direction: column;
+        align-items: start;
+        height: fit-content;
+    }
+
+    nav ul {
+        display: none;
+        /* Hide menu on mobile */
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+       
+row-gap: 3px;
+border-radius: 3px;
+padding: 15px 0;
+        /* margin-bottom: 0.25rem; */
+    }
+
+    nav ul.open {
+        display: flex;
+        /* Show menu when open */
+        text-align: center;
+    }
+
+    nav ul li {
+        width: 100%;
+        background-color: #0f172a;
+            padding: 10px;
+     
+       
+    }
+
+    nav ul li a {
+        margin: 0.2rem 0.5rem;
+     
+        width: 100%;
+    }
+nav ul li a:hover{
+    
+    border-bottom: 5px solid white;
+    color:#f0f0f0;
+}
+    nav .menu {
+        display: flex;
+        /* Show menu icon on mobile */
+        position: absolute;
+        top: 0.75rem;
+        right: 0.5rem;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 2.05rem;
+        height: 1.095rem;
+        cursor: pointer;
+        /* Add cursor pointer */
+        z-index: 999;
+        margin-top: 8px;
+        /* Ensure the menu is above other elements */
+    }
+}

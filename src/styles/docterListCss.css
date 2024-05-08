@@ -1,0 +1,55 @@
+.list{
+    display: flex;
+   
+    margin-top: 15px;
+    column-gap: 10px;
+    margin-left: 10px;
+}
+
+.card{
+    background-color:#0f172add;
+    color: aliceblue;
+
+    padding: 10px;
+    display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.card:hover{
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.cardName{
+    background-color:aliceblue;
+    color: #0f172a;
+    padding: 10px;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 3px;
+}
+
+.DocterDetails p{
+    margin-top: 10px;
+  
+}
+.DocterDetails span{
+    font-weight: 500;
+}
+
+.Btn{
+    margin-top: 10px;
+    background-color: aliceblue;
+        color: #0f172a;
+}
+.Btn:hover{
+color: aliceblue;
+font-weight: bold;
+}
+
+@media  (max-width:760px) {
+    .list{
+        display:flex;
+        flex-direction:column
+    }
+}
