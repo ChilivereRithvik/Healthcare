@@ -1,0 +1,37 @@
+.headding{
+    text-align: center;
+    font-size: x-large;
+}
+.tab{
+    cursor: pointer;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.tab p{
+    display: inline-block;
+        outline: 0;
+        cursor: pointer;
+        border: 1px solid #0f172a;
+        border-radius: 3px;
+        color: #0f172a;
+        background: aliceblue;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 28px;
+        padding: 10px 10px;
+        text-align: center;
+        transition-duration: .15s;
+        transition-property: all;
+        transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    
+        
+}
+.tab p:hover {
+    background:#0f172a;
+    color: aliceblue;
+}
+
+.card-text{
+    cursor: pointer;
+}

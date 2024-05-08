@@ -1,0 +1,62 @@
+
+.heading{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+}
+.Docform {
+    display: flex;
+flex-direction: column;
+    justify-content: center;
+ 
+    flex-wrap: wrap;
+  padding: 10px;
+  
+}
+form label{
+    margin-left: 10px;
+}
+form input{
+
+    width: 100%;
+}
+form span{
+    color: red;
+}
+
+.inp{
+   
+    border:1px solid rgba(128, 128, 128, 0.375);
+    padding: 10px;
+    border-radius: 3px;
+    
+}
+.prof{
+    margin-top: 10px;
+}
+.btn{
+display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 3px;
+    color: #000;
+    background: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 12px 20px;
+    text-align: center;
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    margin-top: 10px;
+    width: fit-content;
+}
+
+
+.btn:hover {
+    background:#0f172a;
+    color: #fff;
+    border-color: #fff;
+}

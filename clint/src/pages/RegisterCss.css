@@ -1,0 +1,122 @@
+
+.signup-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0f172a;
+
+
+}
+
+.signup-form {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:#fff;
+    box-shadow: rgba(244, 242, 242, 0.24) 0px 3px 8px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color:#0f172a;
+}
+
+.signup{
+    font-size:large;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type='email'],
+input[type='text'],
+input[type='password'] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0f172a9f;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#0f172a;
+}
+
+
+
+
+.orcase {
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    background-color: #0056b3;
+    width: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    position: absolute;
+    z-index: 1;
+}
+
+.or {
+    z-index: 2;
+    background-color: aliceblue;
+    padding: 0 10px;
+}
+
+.sign {
+    background-color: #0f172a9f;
+    ;
+    text-align: center;
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.sign:hover {
+    background-color: #0f172a;
+
+}
+
+
+.CiMedicalCase {
+    background-color: aliceblue;
+    size: 20px;
+    color: #0f172a;
+}

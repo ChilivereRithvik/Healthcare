@@ -1,0 +1,152 @@
+.main {
+    padding:5px;
+    height: 100vh;
+}
+
+.layout {
+    display: flex;
+}
+
+.sidebar {
+    min-height: 100%;
+    width: 300px;
+    border-radius: 4px;
+    background-color:#0f172a;
+    box-shadow: 0 0 2px gray;
+    margin-right:10px;
+    color:#f0f0f0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 5px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.header {
+    height: 10vh;
+    margin-bottom: 8px;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+border-radius: 3px;
+    border:1px solid #0f172a;
+}
+
+.body::-webkit-scrollbar{
+    display: none;
+}
+.body {
+    height: 85vh;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px gray;
+    padding: 10px;
+    background-color:aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 3px;
+    border:1px solid #0f172a;
+    overflow: scroll;
+}
+
+.logo h6 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px 0px;
+    color: #f0f0f0;
+}
+
+.menu {
+    margin-top: 0px;
+}
+.menu span{
+    color: #0f172a;
+ padding: 5px 20px;
+}
+.menu-item {
+    cursor: pointer;
+    margin-top: 30px;
+    width:100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+text-align: center;
+border-radius: 3px ;
+    background-color:#0f172a;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu-item a {
+    color:gray;
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+.menu-item:hover{
+    background-color:aliceblue;
+    color: #0f172a;
+
+}
+
+.menu-item.a:hover{
+    color: #0f172a;
+
+}
+.menu-item i {
+    font-size: 1rem;
+    margin: 0 15px;
+}
+
+.active {
+    background-color: white;
+padding: 8px;
+}
+.menuicon{
+    width: 100%;
+  
+}
+
+svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+background-color: #f0f0f0;
+color: rgb(0, 255, 170);
+   
+}
+
+.active a,
+.active i {
+    color:#0f172a;
+    font-weight: 700;
+}
+
+.header-contant {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    align-items: center;
+    height: 50xp;
+cursor: pointer;
+    margin: auto;
+    gap: 10px;
+    font-size: larger;
+
+
+
+}
+
+.header-contant .link {
+    background-color: #0f172a;
+    text-decoration: none;
+    color:#f0f0f0;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 5px;
+    border-radius: 3px;
+    font-weight: 500;
+    margin-left: 10px;
+}
